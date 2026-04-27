@@ -13,3 +13,24 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/objets/1987-macintosh-se-1-1/index.html"
+to = "/objets/1983-commodore-executive-computer/"
+
+[[redirects]]
+from = "/projets/index.html"
+to = "/objets/"
+
+[[redirects]]
+from = "/objets/1987-commodore-executive-computer/index.html"
+to = "/objets/1983-commodore-executive-computer/"
+
+[[redirects]]
+from = "/objets/ordinateurs-personnel/index.html"
+to = "/objets/ordinateurs-personnels/"
+
+[[redirects]]
+from = "/objets/ordinateur-personnel/index.html"
+to = "/objets/ordinateurs-personnels/"
+
